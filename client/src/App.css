@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+.title {
+  background-color: #E8EAF6;
+  padding: 15px 0px;
+}
+.board {
+  display: inline-block;
+  border: 2px solid #333;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+  font-size: 24px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+}
+.cell.x {
+  color: green;
+}
+.cell.o {
+  color: red;
+}
+.status {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #88d8e8;
+  border-radius: 8px;
+  border: 1px solid #01f701;
+}
